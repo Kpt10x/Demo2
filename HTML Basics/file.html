@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML  Elements </title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; }
+    section { margin-bottom: 50px; border-bottom: 1px solid #ccc; padding-bottom: 30px; }
+    code, pre { background-color: #f4f4f4; padding: 5px 10px; border-radius: 5px; display: block; }
+    h2 { color: #333; }
+    img{width: 400px;height:300px;}
+  </style>
+</head>
+<body>
+  <h1> HTML Elements</h1>
+
+  <section>
+    <h2>1. Structure of an HTML Document</h2>
+    <p>The structure is internal and not directly visible, but this page is built with the standard HTML document structure.</p>
+  </section>
+
+  <section>
+    <h2>2. Basic Tags in Action</h2>
+    <h3>Heading Levels</h3>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <h3>Paragraph</h3>
+    <p>This is a paragraph.</p>
+
+    <h3>Line Break and Horizontal Line</h3>
+    Line one<br>Line two
+    <hr>
+
+    <h3>Text Formatting</h3>
+    <b>Bold</b>, <i>Italic</i>, <u>Underlined</u>
+  </section>
+
+  <section>
+    <h2>3. Lists, Images, Tables, Forms, and Hyperlinks</h2>
+    <h3>Unordered List</h3>
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Cherry</li>
+    </ul>
+
+    <h3>Image</h3>
+    <img src="federico-rizzarelli-cZzC8D5fqIE-unsplash.jpg" alt="Example Image">
+
+    <h3>Table</h3>
+    <table border="1">
+      <tr><th>Name</th><th>Age</th></tr>
+      <tr><td>Alice</td><td>20</td></tr>
+      <tr><td>Bob</td><td>22</td></tr>
+    </table>
+
+    <h3>Form</h3>
+    <form>
+      <label>Name: <input type="text" name="name"></label><br>
+      <label>Email: <input type="email" name="email"></label><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h3>Hyperlink</h3>
+    <a href="https://example.com" target="_blank">Visit Example.com</a>
+  </section>
+
+  <section>
+    <h2>4. Inline vs Block vs Inline-Block</h2>
+    <h3>Block Element (div)</h3>
+    <div style="background: #eee; padding: 10px;">This is a block element</div>
+
+    <h3>Inline Element (span)</h3>
+    <p>This is an <span style="background: yellow;">inline span</span> inside text.</p>
+
+    <h3>Inline-Block</h3>
+    <div style="display: inline-block; width: 100px; height: 100px; background: lightblue; margin: 5px;">Box 1</div>
+    <div style="display: inline-block; width: 100px; height: 100px; background: lightgreen; margin: 5px;">Box 2</div>
+  </section>
+
+  <section>
+    <h2>5. &lt;div&gt; and &lt;span&gt; Tags</h2>
+    <div style="background: #f9f9f9; padding: 10px;">This is a div block</div>
+    <p>This sentence contains a <span style="color: red;">red word</span> using span.</p>
+  </section>
+
+  <section>
+    <h2>6. Frames (iframe)</h2>
+    <p>HTML5 recommends using iframe instead of frameset.</p>
+    <iframe src="https://example.com" width="300" height="200" title="Example Site"></iframe>
+  </section>
+
+  <section>
+    <h2>7. Semantic HTML Elements</h2>
+    <header style="background: #eee; padding: 10px;">Header Section</header>
+    <nav style="background: #ddd; padding: 10px;">Navigation Links</nav>
+    <main style="padding: 10px; background: #fefefe;">
+      <section style="border: 1px solid #ccc; padding: 10px;">
+        <article>
+          <h3>Article Title</h3>
+          <p>This is an article inside a section.</p>
+        </article>
+      </section>
+    </main>
+    <footer style="background: #eee; padding: 10px;">Footer Section</footer>
+  </section>
+
+</body>
+</html>
